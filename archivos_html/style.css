@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2? family= Kalam:wght@700 & display=swap');
+
+
+.container-bandera{
+    background-image: url(../img/BANDERA\ ARGENTINA.jfif);
+    background-size: cover; 
+    background-position: center;
+    height: 150px;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-family: 'Kalam', cursive;
+}
+
+.card{
+    transition:all 1s;
+}
+
+.card:hover{
+    box-shadow: 15px 15px 20px rgb(83, 77, 77);
+    background-color: aqua;
+}
