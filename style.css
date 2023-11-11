@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Kalam:wght@700 & display=swap');
+/* @import url('https://fonts.googleapis.com/css2? family= Kalam:wght@700 & display=swap'); */
 
 body {
     background: url(img/fondo\ principal.jfif) no-repeat center center fixed;
@@ -7,7 +7,7 @@ body {
 
 
 .container-festejos {
-    background-image:linear-gradient(rgba(193, 181, 181, 0.082),rgba(174, 160, 160, 0.185)), url(img/festejos!!!.jfif);
+    background-image: linear-gradient(rgba(193, 181, 181, 0.082), rgba(174, 160, 160, 0.185)), url(img/festejos!!!.jfif);
     background-size: cover;
     background-position: center;
     height: 570px;
@@ -18,11 +18,20 @@ body {
 .container-festejos h1 {
     font-family: fantasy;
     color: rgb(9, 9, 144);
-    font-size:60px;
+    font-size: 60px;
+}
+
+
+.container-alentar {
+    background-image: url(img/Bandera\ Argentina\ alentemos.jfif);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    margin: 0 auto;
 }
 
 .container-historia1 {
-border-radius: 10px;
+    border-radius: 10px;
 }
 
 
@@ -46,9 +55,9 @@ border-radius: 10px;
 }
 
 /* formulario */
-.container-form{
-    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(img/fondo\ pelota.jfif);
-    background-size:cover;
+.container-form {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/fondo\ pelota.jfif);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -56,4 +65,23 @@ border-radius: 10px;
 
 .footer a {
     text-decoration: none;
+}
+
+/* museo */
+/* .container-museo{ */
+/* background-image:url(img/museo2.jfif); */
+/* background-size:cover; */
+/* background-position: center; */
+/* background-repeat: no-repeat */
+/* height: 500 px */
+/* } */
+
+
+.container-museo {
+    background-image: linear-gradient(rgba(193, 181, 181, 0.082), rgba(174, 160, 160, 0.185)), url(img/10museo10.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 570px;
+    display: grid;
+    place-items: center;
 }
